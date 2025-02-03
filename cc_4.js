@@ -94,3 +94,13 @@ function calculateTax(amount){
 
 //Logging the tax amount using a template literal.
 console.log(`Amount of Tax on Total: ${calculateTax(1356)}`)
+
+//Task 9 - Function Expressions
+
+//Declaring a function that takes a price and multiplies it to make a 25% discount.
+function applyDiscount(amount){
+    return amount * .75
+}
+
+//Logging the function using a template literal.
+console.log(`Discounted Total: ${applyDiscount(1234)}`)
