@@ -51,3 +51,17 @@ do {
     console.log(`Number of Responses: ${responses}`)
     responses++
 } while (responses <= 3);
+
+//Task 5 - For...In Loop
+
+//Declaring an object with properties
+let employee = {
+    Name: "Alice",
+    Poistion: "Manager",
+    Salary: 75000
+}
+
+//Using a For-In loop to iterate each property.
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`)
+}
