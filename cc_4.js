@@ -19,13 +19,16 @@ console.log(`Final amount after discount: ${finalAmount}`)
 //Declaring an array with five figures.
 let sales = [45, 85, 120, 200, 350]
 
+//Declaring total sales.
+let totalSales = 0
+
 //Using a for loop to add up the total sales.
 for (let i = 0; i < sales.length; i++) {
-    sales + sales[i]
+    totalSales += sales[i]
 }
 
 //Logging total sales using a template literal.
-console.log(`Total Sales: ${sales}`)
+console.log(`Total Sales: ${totalSales}`)
 
 //Task 3 - While Loop
 
