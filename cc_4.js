@@ -75,3 +75,12 @@ let products = ["Laptop", "Mouse", "Keyboard"]
 for (const element of products) {
     console.log(`Product: ${products}`)
 }
+
+//Task 7 - forEach() Method
+
+//Declaring an array with three order IDs
+let orders = [101, 102, 103]
+
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`)
+});
