@@ -37,3 +37,14 @@ while (stock > 0) {
     console.log(`Stock left: ${stock}`)
     stock--
 }
+
+//Task 4 - Do...While Loop
+
+//Delcaring a variable with inital value of 0
+let responses = 0
+
+//Increasing the number of responses 1 until 3 by using a Do-While loop and console logging each increment using a template literal.
+do {
+    console.log(`Number of Responses: ${responses}`)
+    responses++
+} while (responses <= 3);
