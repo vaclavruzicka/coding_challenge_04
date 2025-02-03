@@ -26,3 +26,14 @@ for (let i = 0; i < sales.length; i++) {
 
 //Logging total sales using a template literal.
 console.log(`Total Sales: ${sales}`)
+
+//Task 3 - While Loop
+
+//Declaring a value with a value of 10
+let stock = 10
+
+//Using a while loop to decrease stock by 1 and logging each decrease.
+while (stock > 0) {
+    console.log(`Stock left: ${stock}`)
+    stock--
+}
