@@ -65,3 +65,13 @@ let employee = {
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`)
 }
+
+//Task 6 - For..Of Loop
+
+//Declaring an array of three products.
+let products = ["Laptop", "Mouse", "Keyboard"]
+
+//Logging each product using a For-Of Loop
+for (const element of products) {
+    console.log(`Product: ${products}`)
+}
