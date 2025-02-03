@@ -104,3 +104,13 @@ function applyDiscount(amount){
 
 //Logging the function using a template literal.
 console.log(`Discounted Total: ${applyDiscount(1234)}`)
+
+//Task 10 - Arrow Functions
+
+//Delcaring a function that take an amount and returns rewards points, 1 point per 10 dollars.
+function calculatePoints(amount){
+    return amount * .1
+}
+
+//Logging the function to the console using a template literal.
+console.log(`Points Earned: ${calculatePoints(120)}`)
